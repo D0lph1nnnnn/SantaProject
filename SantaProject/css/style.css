@@ -1,0 +1,49 @@
+:root {
+    --santa-red: #CB0E2A;
+    --santa-red-alpha: rgba(203, 14, 42, 0.377);
+    --santa-green: #07A294;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+body {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    padding: 3% 15%;
+    background-color: var(--santa-red);
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    font-size: 1.5rem;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: Mountains+of+Christmas;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
