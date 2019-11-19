@@ -1,5 +1,5 @@
 :root {
-    --santa-red: #CB0E2A;
+    --santa-red: rgb(177, 15, 39);
     --santa-red-alpha: rgba(203, 14, 42, 0.377);
     --santa-green: #07A294;
 }
@@ -46,4 +46,13 @@ body {
 
 .nav-item {
     padding: 0 1rem;
+}
+
+.download-btn {
+    margin: 5% 3% 6% 0;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(10deg)
 }
