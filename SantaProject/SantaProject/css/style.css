@@ -1,0 +1,160 @@
+:root {
+    --santa-red: rgb(177, 15, 39);
+    --santa-red-alpha: rgb(199, 90, 90);
+    --santa-green: #07A294;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+body {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#title {
+    padding: 3% 15%;
+    background-color: var(--santa-red);
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    font-size: 1.5rem;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: Mountains+of+Christmas;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.download-btn {
+    margin: 5% 3% 6% 0;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(10deg)
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/*FEATURE SECTION*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #FFF;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+#features i {
+    color: var(--santa-red);
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: var(--santa-green);
+}
+
+#testimonials {
+    background-color: var(--santa-red);
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-family: 'Calistoga', cursive;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+#press {
+    background-color: var(--santa-red);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1.4rem 1.4rem 1.8rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 4rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#pricing h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+.card {
+    width: 500px;
+    height: 400px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-header {
+    font-family: 'Calistoga', cursive;
+    background-color: #e9e9e9;
+}
+
+.card h2 {
+    font-weight: 900;
+    font-size: 3rem;
+}
